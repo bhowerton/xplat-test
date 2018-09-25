@@ -16,10 +16,25 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@xplat-clean/*": [
+        "libs/*"
+      ],
+      "@xplat-clean/nativescript": [
+        "xplat/nativescript/index.ts"
+      ],
+      "@xplat-clean/nativescript/*": [
+        "xplat/nativescript/*"
+      ],
+      "@xplat-clean/web": [
+        "xplat/web/index.ts"
+      ],
+      "@xplat-clean/web/*": [
+        "xplat/web/*"
+      ]
     }
   },
   "exclude": [
-    "node_modules",
+    //"node_modules",
     "tmp"
   ]
 }
